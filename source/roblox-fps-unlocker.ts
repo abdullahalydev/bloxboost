@@ -112,7 +112,7 @@ import RobloxCore from "./cores/roblox.core";
         RobloxCore.deinitializeClientAppSettings();
 
         console.clear();
-        console.log("tool installed succesfully, program will exit after 5 seconds");
+        console.log("tool uninstalled succesfully, program will exit after 5 seconds");
         setTimeout(function () {
           console.log("done.");
         }, 5 * 1000);
