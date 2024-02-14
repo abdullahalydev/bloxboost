@@ -1,1 +1,1 @@
-import "./source/bloxboost";
+import "./source/roblox-fps-unlocker";
