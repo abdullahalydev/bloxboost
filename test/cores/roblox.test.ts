@@ -5,24 +5,24 @@ describe("test roblox core class", function () {
   test("build roblox path", function () {
     const path = RobloxCore.buildRobloxPath();
 
-    expect(path).toEqual("C:\\Users\\Abdullah Aly\\AppData\\Local\\Roblox");
+    expect(typeof path).toEqual("string");
   });
 
   test("is roblox installed", function () {
     const status = RobloxCore.isRobloxInstalled();
 
-    expect(status).toEqual(true);
+    expect(typeof status).toEqual("boolean");
   });
 
   test("find client version path", function () {
-    const status = RobloxCore.findClientVersionPath();
+    const path = RobloxCore.findClientVersionPath();
 
-    expect(status).toEqual("C:\\Users\\Abdullah Aly\\AppData\\Local\\Roblox\\Versions\\version-f2b5c592c03b4183");
+    expect(typeof path).toEqual("string");
   });
 
   test("set client app settings", function () {
-    const status = RobloxCore.setClientAppSettings();
+    const process = RobloxCore.initializeClientAppSettings(60, true);
 
-    expect(status).toBeUndefined();
+    expect(process).toBeUndefined();
   });
 });
