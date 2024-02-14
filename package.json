@@ -1,9 +1,10 @@
 {
-  "name": "chain",
-  "version": "0.1.0",
+  "name": "roblox-fps-unlocker",
+  "version": "1.3.0",
   "private": true,
   "scripts": {
-    "pkg:build": "pkg ./dist/index.js --target node16-win-x64 --public --output ./build/bloxboost",
+    "typescript:build": "tsc",
+    "pkg:build": "pkg ./dist/index.js --target node16-win-x64 --public --output ./build/roblox-fps-unlocker",
     "eslint:fix": "eslint --fix ./",
     "jest:watch": "jest --watch"
   },
