@@ -1,11 +1,11 @@
-<h1>
-    <center>BloxBoost</center>
+<h1 align="center">
+    roblox-fps-unlocker
 </h1>
-    <center>lightweight & fast</center>
+<p align="center">lightweight & fast</p>
 
-<h2>About</h2>
+<h2>Description</h2>
 <p>
-bloxboost is <strong>lightweight & fast</strong> to unlock framerate per second(fps) limitation in roblox
+roblox-fps-unlocker is <strong>lightweight & fast</strong> tool, it's built by node.js built-in packages and it's use to unlock framerate per second(fps) limitation in roblox
 </p>
 
 <h2>Features</h2>
@@ -21,7 +21,7 @@ firsly you need to go <a href="https://github.com/AbdullahalyDev/redirect-detect
 
 <h2>Usage</h2>
 <p>
-=download latest version from <a href="https://github.com/AbdullahalyDev/redirect-detector/releases">releases</a> page then open exe file</p>
+download latest version from <a href="https://github.com/AbdullahalyDev/redirect-detector/releases">releases</a> page then open exe file</p>
 
 <h2>Contributing</h2>
 <p>
