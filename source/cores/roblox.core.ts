@@ -1,7 +1,7 @@
 // packages
-import os from "os";
-import fs from "fs";
-import path from "path";
+import os from "node:os";
+import fs from "node:fs";
+import path from "node:path";
 
 export default class RobloxCore {
   static buildRobloxPath() {
@@ -36,7 +36,7 @@ export default class RobloxCore {
     );
   }
 
-  static initializeClientAppSettings() {
+  static initializeClientAppSettings(fps: number, graphicFixer: boolean) {
     const clientPath = this.findClientVersionPath();
     const clientSettings = fs.existsSync(path.join(clientPath, "ClientSettings"));
 
@@ -47,7 +47,8 @@ export default class RobloxCore {
     fs.writeFileSync(
       path.join(clientPath, "ClientSettings", "ClientAppSettings.json"),
       JSON.stringify({
-        DFIntTaskSchedulerTargetFps: 244,
+        DFIntTaskSchedulerTargetFps: fps,
+        FFlagFixGraphicsQuality: graphicFixer ? "True" : "False",
       })
     );
   }
