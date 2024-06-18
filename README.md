@@ -7,6 +7,10 @@
 <p>
 roblox-fps-unlocker is <strong>lightweight & fast</strong> tool, it's built by node.js built-in packages and it's use to unlock framerate per second(fps) limitation in roblox
 </p>
+<h3>Notice</h3>
+<p>
+    roblox-fps-unlocker tool is deprecated after latest roblox update
+</p>
 
 <h2>Features</h2>
 <ul>
